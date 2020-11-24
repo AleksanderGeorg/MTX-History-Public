@@ -1,0 +1,29 @@
+{
+  "name": "mtxhistory-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanderGeorg/mtxhistory-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksanderGeorg/mtxhistory-backend/issues"
+  },
+  "homepage": "https://github.com/AleksanderGeorg/mtxhistory-backend#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fetch-json": "^2.2.8",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.4.1"
+  }
+}
